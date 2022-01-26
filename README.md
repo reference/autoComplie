@@ -11,9 +11,12 @@ xcrun: error: unable to find utility "PackageApplication", not a developer tool 
 放到下面这个目录：
 
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/
+
 然后执行命令
 
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/
 chmod +x /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/PackageApplication
+
 最后附上PackageApplication下载地址：
+
 https://pan.baidu.com/s/1jHJF2Lo
